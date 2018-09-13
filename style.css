@@ -1,0 +1,31 @@
+/* load a font form the web ie. fonts.google.com*/
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+@font-face {font-family: 'Rubik', sans-serif;}
+
+
+body {
+  border: 2px dashed grey;
+  padding: 50px;
+  background-color: PapayaWhip;
+  width: 600px;
+  text-align: justify;
+  margin: auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  color: PaleVioletRed;
+}
+h2 {
+  color: PowderBlue;
+}
+img {
+  box-shadow: 0px 7px 32px -3px rgba(130,126,130,0.61);
+}
+p {
+  color: plum;
+}
+footer {
+  color: Peru;
+}

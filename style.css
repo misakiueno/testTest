@@ -1,7 +1,9 @@
 /* load a font form the web ie. fonts.google.com*/
 @import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 
 @font-face {font-family: 'Rubik', sans-serif;}
+@font-face {font-family: 'Libre Barcode 128 Text', cursive;}
 
 
 body {
@@ -11,21 +13,24 @@ body {
   width: 600px;
   text-align: justify;
   margin: auto;
-  font-family: 'Rubik', sans-serif;
 }
 
 h1 {
   color: PaleVioletRed;
+  font-family: 'Libre Barcode 128 Text', cursive;}
 }
 h2 {
   color: PowderBlue;
+  font-family: 'Rubik', sans-serif;
 }
 img {
   box-shadow: 0px 7px 32px -3px rgba(130,126,130,0.61);
 }
 p {
   color: plum;
+  font-family: 'Rubik', sans-serif;
 }
 footer {
   color: Peru;
+  font-family: 'Rubik', sans-serif;
 }
